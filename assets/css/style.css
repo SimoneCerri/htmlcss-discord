@@ -43,6 +43,7 @@ h1 {
 h2{
     font-size: 2.5rem;
     font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 main {
@@ -165,22 +166,22 @@ li {
 }
 
 #section3 {
-    background-color: grey;
+    background-color: rgba(246, 246, 246, 1);
     display: flex;
     justify-content: center;
-    /* padding: 3rem 3rem; */
+    padding: 6rem 6rem;
 }
 
 #section4 {
     background-color: white;
     display: flex;
     justify-content: center;
-    /* padding: 3rem 3rem; */
+    padding: 6rem 6rem;
 }
 
 #section5 {
-    background-color: grey;
-    /* padding: 3rem 3rem; */
+    background-color:rgba(246, 246, 246, 1);
+    padding: 6rem 6rem;
 }
 
 .inside_box1 {
