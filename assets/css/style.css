@@ -27,11 +27,18 @@ body {
 }
 
 header {
-    background-color: lightblue;
+    background-color: rgba(48, 97, 225, 1);
 }
 
 main {
     /* padding: 0 6rem; */
+}
+
+li {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-size: 120%; */
+    padding: 1rem;
 }
 
 /* #endregion common */
@@ -83,6 +90,15 @@ main {
     flex-basis: 15%;
     text-align: end;
     align-self: center;
+}
+
+.button_1 {
+    /* font-size: 110%; */
+    background-color: white;
+    border-color: white;
+    border-style: none;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
 }
 
 
