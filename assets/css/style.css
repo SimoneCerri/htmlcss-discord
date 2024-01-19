@@ -40,11 +40,17 @@ h1 {
     font-size: 350%;
 }
 
-h2{
+h2 {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
 }
+
+h3 {
+    margin: 3rem 0;
+    background-image: url("./assets/img/stars.svg");
+}
+
 
 main {
     /* padding: 0 6rem; */
@@ -87,9 +93,11 @@ li {
     width: 100%;
 }
 
-.pre{
+.pre {
     color: white;
 }
+
+
 /* #endregion utilities */
 
 
@@ -136,7 +144,16 @@ li {
     border-radius: 1rem;
 }
 
-.margin{
+.button_blue {
+    background-color:rgba(48, 98, 225, 0.473);
+    border-color: rgba(48, 98, 225, 0.473);
+    color: white;
+    border-style: none;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
+}
+
+.margin {
     margin: 2rem 1.5rem;
 }
 
@@ -180,7 +197,7 @@ li {
 }
 
 #section5 {
-    background-color:rgba(246, 246, 246, 1);
+    background-color: rgba(246, 246, 246, 1);
     padding: 6rem 6rem;
 }
 
