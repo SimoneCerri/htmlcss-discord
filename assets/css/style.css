@@ -32,13 +32,26 @@ header {
     background-color: rgba(48, 97, 225, 1);
 }
 
+h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: large;
+    font-size: 350%;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 main {
     /* padding: 0 6rem; */
 }
 
 li {
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     /* font-size: 120%; */
     padding: 1rem;
 }
@@ -58,7 +71,6 @@ li {
 }
 
 .site_container {
-    width: 80%;
     /* max-width: 1200px; */
 }
 
@@ -69,7 +81,7 @@ li {
 
 .banner {
     background-image: url("/assets/img/jumbo.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -127,13 +139,6 @@ li {
     margin: 2rem 1.5rem;
 }
 
-h1 {
-    color: white;
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-style: large;
-    font-size: 350%;
-}
 
 
 /* #endregion header */
@@ -144,48 +149,48 @@ h1 {
 .box {
     /* background-color: pink; */
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 6rem 6rem;
 }
 
 #section1 {
     /* background-color: blue; */
-    padding: 3rem 3rem;
+    /* padding: 3rem 3rem; */
 }
 
 #section2 {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 3rem 3rem;
+    padding: 6rem 6rem;
 }
 
 #section3 {
     background-color: grey;
     display: flex;
     justify-content: center;
-    padding: 3rem 3rem;
+    /* padding: 3rem 3rem; */
 }
 
 #section4 {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 3rem 3rem;
+    /* padding: 3rem 3rem; */
 }
 
 #section5 {
     background-color: grey;
-    padding: 3rem 3rem;
+    /* padding: 3rem 3rem; */
 }
 
 .inside_box1 {
     flex-basis: 60%;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .inside_box2 {
     flex-basis: 40%;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 
 /* #endregion main */
