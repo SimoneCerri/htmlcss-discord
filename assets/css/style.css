@@ -1,0 +1,175 @@
+/* #region debug */
+
+.debug header {
+    height: 100px;
+    background-color: red;
+}
+
+.debug main {
+    height: 400px;
+    background-color: green;
+}
+
+.debug footer {
+    height: 100px;
+    background-color: blue;
+}
+
+
+/* #endregion debug */
+
+/* #region common */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    background-color: lightblue;
+}
+
+/* #endregion common */
+
+main {
+    /* padding: 0 6rem; */
+}
+
+/* #region utilities */
+
+:root {
+    --box1: color rgb(59, 59, 209);
+    --box2: color rgb(53, 199, 72);
+    --box3: color rgb(230, 93, 116);
+    --box-footer1: color rgb(254, 255, 192);
+    --box-footer2: color rgb(51, 173, 153);
+}
+
+/* #endregion utilities */
+
+
+
+/* #region header */
+#header_bar {
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 3rem 3rem;
+}
+
+#header_bar>div {
+    background-color: rgb(255, 230, 0);
+}
+
+.logo {
+    flex-basis:15%;
+    text-align: center;
+}
+
+.links {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.login {
+    flex-basis: 15%;
+    text-align: center;
+}
+
+
+/* #endregion header */
+
+
+
+/* #region main */
+.box {
+    background-color: pink;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+#section1 {
+    background-color: blue;
+    padding: 3rem 3rem;
+}
+
+#section2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 3rem;
+}
+
+#section3 {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 3rem;
+}
+
+#section4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 3rem;
+}
+
+#section5 {
+    background-color: grey;
+    padding: 3rem 3rem;
+}
+
+.inside_box1 {
+    flex-basis: 60%;
+    background-color: lightblue;
+}
+
+.inside_box2 {
+    flex-basis: 40%;
+    background-color: lightcoral;
+}
+
+/* #endregion main */
+
+
+
+/* #region footer */
+
+#footer_section1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 3rem 3rem;
+}
+
+#footer_section2 {
+    background-color: black;
+    padding: 3rem 3rem;
+}
+
+.big_element {
+    background-color: pink;
+    flex-basis: 34.2%;
+}
+
+.small_element {
+    background-color: aquamarine;
+    flex-basis: 16.6%;
+}
+
+#footer_bar{
+    background-color:turquoise ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_section2{
+    background-color: rgb(22, 20, 20);
+}
+
+.end1,.end2{
+    background-color: pink;
+}
+/* #endregion footer */
