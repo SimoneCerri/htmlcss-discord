@@ -170,8 +170,8 @@ a {
     border-color: rgba(48, 98, 225, 0.473);
     color: white;
     border-style: none;
-    padding: 0.6rem 0.8rem;
-    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
 }
 
 .margin {
