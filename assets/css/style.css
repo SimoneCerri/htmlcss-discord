@@ -20,10 +20,12 @@
 
 /* #region common */
 
-body {
+* {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
 }
 
 header {
@@ -65,13 +67,19 @@ li {
     justify-content: center;
 }
 
+.banner {
+    background-image: url("/assets/img/jumbo.png");
+    width: 100%;
+}
+
+.pre{
+    color: white;
+}
 /* #endregion utilities */
 
 
 
 /* #region header */
-
-
 
 .logo {
     flex-basis: 15%;
@@ -90,6 +98,8 @@ li {
     flex-basis: 15%;
     text-align: end;
     align-self: center;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .button_1 {
@@ -101,6 +111,28 @@ li {
     border-radius: 1rem;
 }
 
+.button_2 {
+    /* font-size: 110%; */
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: white;
+    border-style: none;
+    padding: 0.6rem 0.8rem;
+    border-radius: 1rem;
+}
+
+.margin{
+    margin: 2rem 1.5rem;
+}
+
+h1 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: large;
+    font-size: 350%;
+}
+
 
 /* #endregion header */
 
@@ -108,13 +140,13 @@ li {
 
 /* #region main */
 .box {
-    background-color: pink;
+    /* background-color: pink; */
     text-align: center;
     padding: 2rem 2rem;
 }
 
 #section1 {
-    background-color: blue;
+    /* background-color: blue; */
     padding: 3rem 3rem;
 }
 
