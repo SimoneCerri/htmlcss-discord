@@ -55,9 +55,6 @@ h4,h5{
     color: rgba(48, 97, 225, 1);
 }
 
-main {
-    /* padding: 0 6rem; */
-}
 
 li {
     color: white;
@@ -90,10 +87,6 @@ a {
     --box3: color rgb(230, 93, 116);
     --box-footer1: color rgb(254, 255, 192);
     --box-footer2: color rgb(51, 173, 153);
-}
-
-.site_container {
-    /* max-width: 1200px; */
 }
 
 .d_flex {
@@ -191,35 +184,31 @@ a {
     padding: 6rem 6rem;
 }
 
-#section1 {
-    /* background-color: blue; */
-    /* padding: 3rem 3rem; */
-}
 
 #section2 {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 6rem 6rem;
+    /* padding: 6rem 0rem; */
 }
 
 #section3 {
     background-color: rgba(246, 246, 246, 1);
     display: flex;
     justify-content: center;
-    padding: 6rem 6rem;
+    /* padding: 6rem 6rem; */
 }
 
 #section4 {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 6rem 6rem;
+    /* padding: 6rem 6rem; */
 }
 
 #section5 {
     background-color: rgba(246, 246, 246, 1);
-    padding: 6rem 6rem;
+    /* padding: 6rem 6rem; */
 }
 
 .inside_box1 {
